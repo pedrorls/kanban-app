@@ -1,5 +1,4 @@
 import React from 'react';
-import uuid from 'uuid';
 import connect from '../libs/connect';
 import Notes from '../components/Notes';
 import NoteActions from '../actions/NoteActions';
