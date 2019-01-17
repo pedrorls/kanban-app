@@ -12,7 +12,8 @@ export default ({
 }) => (
   <ul className='notes'>{notes.map(({ id, editing, task }) => 
     <li key={ id }>
-      <Note 
+      <Note
+        editing={ editing }
         className="note" id={id}
         onClick={ onNoteClick.bind(null, id) }
         onMove={ LaneActions.move }
